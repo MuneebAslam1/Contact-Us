@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    max-width: 1160px;
+    height: 600px;
+    margin: 0 auto;
+    gap: 81px;
+}
+
+.contactdetails {
+    max-width: 473px;
+}
+
+.btns {
+    display: flex;
+    gap: 60px;
+    margin-top: 71px;
+}
+
+.ahm {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.formrs {
+    display: flex;
+    justify-content: center;
+    max-width: 440px;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+    /* margin-bottom: 23px; */
+}
+
+.formrs label {
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    padding: 0 8px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.formrs input {
+    height: 40px;
+    padding: 0 8px;
+}
+
+.formrs textarea {
+
+    padding: 12px;
+}
+
+
+
+/* Former.module.css */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contactdetails {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contactiner {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactiner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.formrs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.formrs label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.formrs input,
+.formrs textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ahm {
+    margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .container {
+        /* flex-direction: column; */
+        padding: 1rem;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .ahm {
+        justify-content: center;
+    }
+}
